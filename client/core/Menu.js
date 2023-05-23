@@ -18,9 +18,9 @@ const isActive = (history, path) => {
 
 const Menu = withRouter(({ history }) => (
   <AppBar position="static">
-    <Toolbar style={{ backgroundColor: '#FF0000' }}> {/* Color de fondo rojo */}
+    <Toolbar style={{ backgroundColor: '#337AB7' }}> {/* Color de fondo rojo */}
       <Typography variant="h6" color="inherit">
-        PostUAO
+        Udyat
       </Typography>
       <Link to="/">
         <IconButton aria-label="Home" style={isActive(history, '/')}>

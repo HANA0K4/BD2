@@ -15,12 +15,13 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import {create} from './api-user.js'
 import {Link} from 'react-router-dom'
 
+
 const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 600,
     margin: 'auto',
     textAlign: 'center',
-    marginTop: theme.spacing(5),
+    marginTop: theme.spacing(25),
     paddingBottom: theme.spacing(2)
   },
   error: {

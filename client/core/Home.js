@@ -65,7 +65,7 @@ export default function Home({history}){
                 <CardMedia className={classes.media} image={UAO} title="CAMPUS"/>
                 <CardContent>
                   <Typography type="body1" component="p">
-                    Bienvenido a PostUAO, una red social para compartir tus ideas y pensamientos con tus compañeros de la Universidad Autonoma de Occidente.
+                    Bienvenido a Udyat, una red social para compartir tus ideas y pensamientos con tus compañeros de la Universidad Autonoma de Occidente.
                   </Typography>
                 </CardContent>
               </Card>
